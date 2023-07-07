@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LoginRegistration</string>
+    <string name="hey">Hey! 👋</string>
+    <string name="creacuenta">Crea una cuenta</string>
+    <string name="name">Nombre(s)</string>
+    <string name="lastname">Apellido</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Correo</string>
+</resources>
