@@ -17,7 +17,10 @@ import androidx.compose.ui.unit.dp
 import com.example.loginregistration.R
 import com.example.loginregistration.components.NormalText
 import com.example.loginregistration.components.BoldText
+import com.example.loginregistration.components.CheckBoxComponent
+import com.example.loginregistration.components.ClickableTextComponent
 import com.example.loginregistration.components.MyTextField
+import com.example.loginregistration.components.PasswordTextField
 
 @Composable
 fun SignUpScreen() {
@@ -48,10 +51,11 @@ fun SignUpScreen() {
                 onTextChanged = {},
                 painterResult = painterResource(id = R.drawable.message))
             Spacer(modifier = Modifier.height(16.dp))
-            MyTextField(
+            PasswordTextField(
                 labelValue = stringResource(id = R.string.password),
                 onTextChanged = {},
                 painterResult = painterResource(id = R.drawable.lock))
+            CheckBoxComponent(value = stringResource(id = R.string.Politicas))
 
 
         }
