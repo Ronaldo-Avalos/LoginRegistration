@@ -40,6 +40,7 @@ fun SignUpScreen() {
               labelValue = stringResource(id = R.string.name),
               onTextChanged = {},
               painterResult = painterResource(id = R.drawable.profile))
+
             Spacer(modifier = Modifier.height(16.dp))
             MyTextField(
                 labelValue = stringResource(id = R.string.lastname),
